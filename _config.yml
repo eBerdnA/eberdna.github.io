@@ -28,6 +28,8 @@ pages_list:
   Archive: '/archive'
   Feed: '/feed.xml'
 
+permalink: /:year/:month/:day/:title
+
 # Build settings
 markdown: kramdown
 theme: minima
