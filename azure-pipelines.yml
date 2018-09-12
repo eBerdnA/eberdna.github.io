@@ -20,5 +20,5 @@ steps:
     detached: false
 - task: PublishBuildArtifacts@1
   inputs:
-    pathtoPublish: '$(System.DefaultWorkingDirectory)'
+    pathtoPublish: '$(Build.ArtifactStagingDirectory)'
     artifactName: WebSite
